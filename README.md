@@ -1,25 +1,19 @@
-# 판다마켓
+# React + Vite
 
-판다마켓 메인 페이지와 로그인·회원가입 페이지를 만든 프로젝트입니다.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 페이지
+Currently, two official plugins are available:
 
-- 메인 페이지
-- 로그인 페이지
-- 회원가입 페이지
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 주요 기능
+## React Compiler
 
-- 로고를 누르면 메인 페이지로 이동합니다.
-- 로그인과 회원가입 페이지를 서로 이동할 수 있습니다.
-- 입력창을 선택하면 파란색 테두리가 표시됩니다.
-- Google과 카카오 간편 로그인 링크를 제공합니다.
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-## 실행 방법
+Note: This will impact Vite dev & build performances.
+You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
 
-프로젝트의 `index.html` 파일을 브라우저에서 열어 확인할 수 있습니다.
+## Expanding the ESLint configuration
 
-## 사용 기술
-
-- HTML
-- CSS
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
